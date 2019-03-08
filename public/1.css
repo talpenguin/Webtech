@@ -1,0 +1,185 @@
+body {
+    background: WhiteSmoke;
+    color: #282828;
+    font-family: sans-serif;
+    line-height: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.container {
+    background: white;
+    min-height: 400px;
+    max-width: 960px;
+    margin: auto; /*centers the container*/
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px #888888 ;
+}
+
+header,
+footer,
+.content {
+    padding: 1em;
+}
+
+nav {
+    padding: 0.3em;
+}
+
+h1, h2,
+h3, h4 {
+    line-height: 1.2em;
+}
+
+h1  {
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-weight: lighter;
+    letter-spacing: 5px;
+}
+
+ h3 {
+    text-transform: Uppercase ;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    padding-top: 0px;
+}
+
+h4 {
+    text-transform: Uppercase ;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    margin-top: 2em ;
+    margin-bottom: 0.5em;
+}
+
+
+footer,
+nav {
+    background: Gainsboro;
+}
+
+
+ ul > li {
+    padding: 0 ;
+    display: inline;
+    text-transform: Uppercase ;
+    letter-spacing: 2px;
+    margin-right: 3em ;
+    }
+
+nav > ul {
+    position: relative;
+}
+
+footer > a {
+    text-transform: Uppercase;
+    letter-spacing: 2px;
+    font-size: 0.75em;
+}
+
+.active {
+    font-weight: bold;
+}
+.main-img  {
+    max-width: 100%;
+    margin: auto;
+    display: block;
+}
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #282828;
+}
+
+a {
+    color: #444 ;
+}
+a:hover {
+    text-decoration: underline;
+    color:black ;
+}
+
+table  {
+    text-align: left;
+}
+
+.data tr:nth-child(even) {
+    background: white;
+}
+
+.data tr:nth-child(odd) {
+    background-color: Gainsboro;
+}
+
+
+.data td {
+    padding: 4px;
+    text-align: right;
+}
+
+footer {
+    text-align: right;
+    padding: 1px;
+}
+
+.res-element > #catagory,
+.res-element > #resname {
+    font-weight: bold;
+    color: white;
+    text-shadow: 0px 0px 15px black;
+    letter-spacing: 1.5px;
+
+
+}
+
+ .res-element > #catagory {
+    position: absolute;
+    font-size: small;
+    top: 44% ;
+    left: 8% ;
+}
+
+
+
+ .res-element >  #resname {
+    position: absolute;
+    font-size: large;
+    top: 52%;
+    left: 8% ;
+}
+
+
+.restaurants {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.res-element{
+    padding: 1.2em;
+    max-width: 288px;
+    position: relative;
+}
+
+
+.img-res {
+    width: 240px;
+    height: 140px ;
+    opacity:0.9;
+    position: relative;
+    margin: auto;
+}
+
+
+.img-res:hover{
+    opacity:0.7;
+}
+
+.menu {
+    display: none;
+}
+

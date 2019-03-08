@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>KiezApp</title>
+    <link rel="stylesheet" type="text/css" href="1.css">
+    <link rel="stylesheet" type="text/css" href="2.css">
+
+    <script src="menu.js"></script>
+    <script src="spa.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+</head>
+
+
+<div class="container">
+    <header>
+        <h2>KiezApp</h2>
+        <h1>Friedrichshain</h1>
+
+        <div class="menu" onclick="menuClick()">☰ Menu</div>
+
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#intro"  id="intro-nav">intro</a></li>
+            <li><a href="#restaurants"  id="restaurants-nav">restaurants</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+
+
+        <main>
+
+
+
+        </main>
+
+
+        <template id="intro-template">
+
+
+        <h3>Intro</h3>
+        <img src="http://view.stern.de/de/picture/2477515/sonnenuntergang-berlin-panorama-friedrichshain-frankfurter-tor-stalinbau-940.jpg" alt="fshain" class="main-img">
+
+        <h4>Beschreibung</h4>
+        <p>
+            Friedrichshain is a district of the Friedrichshain-Kreuzberg borough in Berlin, Germany. From its creation in 1920 until 2001, it was a freestanding city borough. Formerly part of East Berlin, it is adjacent to Mitte, Prenzlauer Berg, Kreuzberg and Lichtenberg.
+
+            Friedrichshain is named after the Volkspark Friedrichshain, a vast green park at the northern border with Prenzlauer Berg. In the Nazi era, the borough was called Horst-Wessel-Stadt. Friedrichshain is one of the trendy districts of Berlin and has experienced gentrification
+        </p>
+
+
+        <h4>daten</h4>
+        <table class="data">
+            <tr>
+                <th>Land</th>
+                <td>Deutschland</td>
+            </tr>
+            <tr>
+                <th>Fläche</th>
+                <td>Keine</td>
+            </tr>
+            <tr>
+                <th>Einwohner</th>
+                <td>Ahnung</td>
+            </tr>
+
+
+        </table>
+
+        </template>
+
+        <template id="restaurants-template">
+
+            <h2>Restaurants</h2>
+
+
+            <div class="restaurants">
+
+                <!--here the template elements will be inserted-->
+
+            </div>
+
+
+
+            <template class="res-temp">
+                <div class="res-element">
+                <img class="img-res" src="" alt="">
+                <div id="catagory"></div>
+                <div id="resname"></div>
+                <div id="address"></div>
+                <a href="" class="website"></a>
+                <div id="tel">  </div>
+                </div>
+            </template>
+
+
+
+
+        </template>
+
+        <template id="kontakt-template">
+
+            <h3>Contact us</h3>
+            <table>
+                <tr>
+                    <input type="radio" name="gender" value="male" checked> Male
+                    <input type="radio" name="gender" value="female"> Female
+                    <input type="radio" name="gender" value="other"> Other
+
+
+                </tr>
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" name="firstname"></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td>Bezirk:</td>
+                    <td><select>
+                        <option>Please Select</option>
+                        <option>Charlottenburg-Wilmersdorf</option>
+                        <option>Friedrichshain-Kreuzberg</option>
+                        <option>Lichtenberg-Hohenschönhausen</option>
+                        <option>Marzahn-Hellersdorf</option>
+                        <option>Mitte</option>
+                        <option>Neukölln</option>
+                        <option>Pankow</option>
+                        <option>Reinickendorf</option>
+                        <option>Spandau</option>
+                        <option>Steglitz-Zehlendorf</option>
+                        <option>Tempelhof-Schöneberg</option>
+                        <option>Treptow-Köpenick</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tel:</td>
+                    <td><input type="tel" name="telefon"></td>
+                </tr>
+
+                <tr>
+                    <td>Subject:</td>
+                    <td>
+                        <form><input name="text" required="required"></form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Matter:</td>
+                    <td>
+                        <form><textarea name="text" required="required" rows="20" cols="50">
+                </textarea></form>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="Submit" onclick="msg()">
+                        <input type="button" value="Clear" onclick="msg()">
+                </tr>
+
+            </table>
+
+
+        </template>
+
+
+    </div>
+
+    <footer>
+        <ul>
+        <li><a href="#kontakt"  id="kontakt-nav">Kontakt</a></li></ul>
+
+    </footer>
+
+</div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+[
+  {
+    "name": "BURGERAMT",
+    "subtitle": "Burger",
+    "img": "https://scontent.ftxl2-1.fna.fbcdn.net/v/t31.0-8/1491439_10153848696233592_5324125656862532355_o.jpg?_nc_cat=111&_nc_ht=scontent.ftxl2-1.fna&oh=e8b567a53d4e59a1f68bfff513e3a068&oe=5CF97DAD",
+    "address": "Krossener Str. 21-22, 10245",
+    "url": "https://www.burgeramt.com/",
+    "urlname": "burgeramt.de",
+    "tel": "<span>&#9742;</span> 030 75540001"
+  },
+  {
+    "name": "Chay Village",
+    "subtitle": "Vegan Asian",
+    "img": "https://www.doppelberlin.com/wp-content/uploads/2016/08/chay-village-berlin-2-750x500.jpg",
+    "address": "Niederbarnim Str. 10, 10249 ",
+    "url": "https://www.chayvillage.de",
+    "urlname": "chayvillage.de",
+    "tel": "<span>&#9742;</span>  030 41993786"
+  },
+  {
+    "name": "1990",
+    "subtitle": "Asian",
+    "img": "https://mitvergnuegen.com/wp-content/uploads/2017/03/1990-vegan-living-brae-talon-09-680x454.jpg",
+    "address": "Krossener Str. 19, 12045",
+    "url": "https://www.restaurant-1990.de/",
+    "urlname": "restaurant-1990.de",
+    "tel": "<span>&#9742;</span>  030 85614761"
+  },
+  {
+    "name": "Pizza Vira",
+    "subtitle": "Italian",
+    "img": "http://ausfreudeambloggen.com/wp-content/uploads/2016/01/pizza-vira-berlin-friedrichshain.jpg",
+    "address": "Warschauer Str. 66, 10243",
+    "url": "http://www.pizza-vira.de/",
+    "urlname": "pizza-vira.de",
+    "tel": "<span>&#9742;</span>  030 60059059"
+  },
+  {
+    "name": "Ramen X Ramen",
+    "subtitle": "Ramen",
+    "img": "https://mitvergnuegen.com/wp-content/uploads/2018/02/ramen-x-ramen_friedrichshain_food_kerstin-musl_13-680x454.jpg",
+    "address": "Gabriel-Max-Str. 2, 10245",
+    "url": "https://www.facebook.com/ramenxramen/",
+    "urlname": "facebook.com/ramenxramen",
+    "tel": "<span>&#9742;</span>  030 34622676"
+  },
+  {
+    "name": "HANGMEE",
+    "subtitle": "Asian",
+    "img": "https://sattundfroh.de/wp-content/uploads/2017/01/hangmee-3.jpg",
+    "address": "Boxhagener Str. 108, 10245",
+    "url": "https://www.facebook.com/ramenxramen/",
+    "urlname": "facebook.com/hangmeeberlin",
+    "tel": "<span>&#9742;</span> 030 82717447"
+  }
+]
