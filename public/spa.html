@@ -5,58 +5,37 @@
     <title>KiezApp</title>
     <link rel="stylesheet" type="text/css" href="1.css">
     <link rel="stylesheet" type="text/css" href="2.css">
-
     <script src="menu.js"></script>
     <script src="spa.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-
-
 </head>
-
-
+    
 <div class="container">
     <header>
         <h2>KiezApp</h2>
         <h1>Friedrichshain</h1>
-
         <div class="menu" onclick="menuClick()">☰ Menu</div>
-
     </header>
-
+    
     <nav>
         <ul>
             <li><a href="#intro"  id="intro-nav">intro</a></li>
             <li><a href="#restaurants"  id="restaurants-nav">restaurants</a></li>
         </ul>
     </nav>
-
+    
     <div class="content">
-
-
         <main>
-
-
-
         </main>
-
-
         <template id="intro-template">
-
-
         <h3>Intro</h3>
         <img src="http://view.stern.de/de/picture/2477515/sonnenuntergang-berlin-panorama-friedrichshain-frankfurter-tor-stalinbau-940.jpg" alt="fshain" class="main-img">
-
         <h4>Beschreibung</h4>
         <p>
             Friedrichshain is a district of the Friedrichshain-Kreuzberg borough in Berlin, Germany. From its creation in 1920 until 2001, it was a freestanding city borough. Formerly part of East Berlin, it is adjacent to Mitte, Prenzlauer Berg, Kreuzberg and Lichtenberg.
-
             Friedrichshain is named after the Volkspark Friedrichshain, a vast green park at the northern border with Prenzlauer Berg. In the Nazi era, the borough was called Horst-Wessel-Stadt. Friedrichshain is one of the trendy districts of Berlin and has experienced gentrification
         </p>
-
-
         <h4>daten</h4>
         <table class="data">
             <tr>
@@ -71,26 +50,14 @@
                 <th>Einwohner</th>
                 <td>Ahnung</td>
             </tr>
-
-
         </table>
-
         </template>
-
         <template id="restaurants-template">
-
             <h2>Restaurants</h2>
-
-
             <div class="restaurants">
-
                 <!--here the template elements will be inserted-->
-
             </div>
-
-
-
-            <template class="res-temp">
+        <template class="res-temp">
                 <div class="res-element">
                 <img class="img-res" src="" alt="">
                 <div id="catagory"></div>
@@ -100,22 +67,15 @@
                 <div id="tel">  </div>
                 </div>
             </template>
-
-
-
-
         </template>
 
         <template id="kontakt-template">
-
             <h3>Contact us</h3>
             <table>
                 <tr>
                     <input type="radio" name="gender" value="male" checked> Male
                     <input type="radio" name="gender" value="female"> Female
                     <input type="radio" name="gender" value="other"> Other
-
-
                 </tr>
                 <tr>
                     <td>Name:</td>
@@ -148,7 +108,6 @@
                     <td>Tel:</td>
                     <td><input type="tel" name="telefon"></td>
                 </tr>
-
                 <tr>
                     <td>Subject:</td>
                     <td>
@@ -166,24 +125,15 @@
                     <td><input type="button" value="Submit" onclick="msg()">
                         <input type="button" value="Clear" onclick="msg()">
                 </tr>
-
             </table>
-
-
         </template>
-
-
     </div>
 
     <footer>
         <ul>
         <li><a href="#kontakt"  id="kontakt-nav">Kontakt</a></li></ul>
-
     </footer>
-
 </div>
 
-
 </body>
-
 </html>
